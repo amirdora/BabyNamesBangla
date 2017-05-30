@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "831470532719",
+    "firebase_url": "https://banglababynames.firebaseio.com",
+    "project_id": "banglababynames",
+    "storage_bucket": "banglababynames.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831470532719:android:145248ea0c8bfb9e",
+        "android_client_info": {
+          "package_name": "com.banglababynames.doradevelopers.banglababynames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831470532719-ne4abfds8gom1huj9ifg51kse7i15bk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAseZ2Wi-qFCNBYR1xtSgTGdjxejUbf6U8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

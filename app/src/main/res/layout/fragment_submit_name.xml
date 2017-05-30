@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.banglababynames.doradevelopers.banglababynames.Fragments.SubmitNameFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/submit_name_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_english_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name in English"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/edit_text_english_meaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name Meaning in English"
+            android:inputType="textCapSentences"/>
+
+        <RadioGroup
+            android:id="@+id/radioGrp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="20dp">
+
+            <RadioButton
+                android:id="@+id/radioM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:checked="false"
+                android:text="Male"
+                android:textSize="14dp" />
+
+            <RadioButton
+                android:id="@+id/radioF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:checked="false"
+                android:text="Female"
+                android:textSize="14dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edit_text_bangla_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name in Bangla"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/edit_text_bangla_meaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name Meaning in Bangla"
+            android:inputType="textCapSentences"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+
+</ScrollView>

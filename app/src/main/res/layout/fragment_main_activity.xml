@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.banglababynames.doradevelopers.banglababynames.Fragments.MainActivityFragment"
+    android:background="@color/lightGray">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/listview_names"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:dividerHeight="5dp">
+
+    </ListView>
+
+</FrameLayout>
